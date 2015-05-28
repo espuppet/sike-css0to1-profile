@@ -79,7 +79,7 @@ body {
   background-color: #fff;
   padding: 30px 60px;
   text-align: center;
-  overflow: hidden;
+  //overflow: hidden;
 }
 
 .info-section header h2 {
@@ -89,7 +89,7 @@ body {
 }
 
 .whatido h2:after {
-  //display: table;
+  display: block;
   width: 100px;
   //content: "";
   border-bottom: 3px solid black
@@ -187,4 +187,57 @@ h1, h2, h3, h4, h5, h6 {
 
 .photos__list img {
   width: 100%;
+}
+
+.get-in-touch__list ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.get-in-touch__list li {
+  display:inline-block;
+  padding: 15px;
+}
+
+.contact input,
+.contact textarea {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 8px;
+}
+
+.contact button {
+  border: none;
+  border-radius: 9999px;
+
+  background: #ffd524;
+
+  cursor: pointer;
+  text-shadow: 0 1px 1px rgba(0,0,0,0.2);
+  color: #fff;
+  box-shadow: 0 3px 0 #daae1d;
+}
+
+.contact input,
+.contact textarea,
+.contact button {
+  width: 40%;
+  display: block;
+  margin:0 auto;
+  margin-top: 20px;
+}
+
+.contact form {
+  position: relative;
+}
+
+.contact label {
+  margin-top: 20px;
+  position: absolute;
+  text-align: right;
+  right:72%;
+  width: 20%;
+  //float:right;
+  //padding-top: 30px;
 }
